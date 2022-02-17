@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="cat.ico" type="image/x-icon">
     <title>Formatação de Texto</title>
+    <style>
+        mark {
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
     <h1>Principais Formatações</h1>
@@ -15,10 +20,27 @@
     <h2>Italico/Enfase</h2>
     <p>Nesta frase temos um <i>termo</i> em italico usando a tag I (NÃO SEMANTICA)</p>
     <p>Nesta frase temos um <em>termo</em> em enfase usando a tag EM </p>
+    <h2>Texto Marcado</h2>
+    <p>Podemos criara também um <mark></mark>texto marcado</mark> usando a tag Mark</p> <!--MARCA TEXTO-->
+    <p>E no outro paragrafo tem <mark>outro termo</mark>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> usando BIG e um <SMALL>texto pequeno</SMALL> usando small nesse paragrafo (BIG NÃO SEMANTICA OBSOLETA) </p> 
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele pode ser lido mas não considerado com a tag DEL </p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma enfase e indicar que ele foi adicionado depois com a tag INS </p>
+    <P><u>texto sublinhado</u> com a tag U (NÃO SEMANTICA)</P>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20+3</sup></p> 
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo <sub>H20</sub></p>
 
     <!--
         Ctrl + Shift + P abre a aba em cima, Emmet Wrap whit Abreviation e coloca a tag que deseja.
         Selecionar texto antes 
+        Pode mudar a cor do marca texto porém o proximo n herda a caracteristica do de cima
+        Cabeçalho style com seletor de tag no caso MARK
+        SUP É EM CIMA SUB É EM BAIXO
     -->
 </body>
 </html>
